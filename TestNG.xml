@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd"><suite name="Aulas_Automation Testcases">
+<listeners>
+<listener class-name="ExtendReports.ExtentReporterNG" />       
+</listeners>
+<test name="ExtentReports TestCases">
+
+
+<groups>
+<run>
+<include name="SanityTesting">
+
+</include>
+</run>
+</groups>
+
+<classes>
+
+
+<class name="Test.DataDrivenFramework" />
+
+
+</classes>
+</test>
+</suite>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

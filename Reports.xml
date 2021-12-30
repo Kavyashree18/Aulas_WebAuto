@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="AulasWebAutomation">
+<!-- Suite -->
+
+<test name = "Login">
+<classes>
+<class name="Test.LoginTest">
+<methods>
+<include name="validateLoginTest"/>
+<include name="ValidateAulasCareLink"/>
+</methods>
+</class>
+<class name="Test.ForgotPasswordTest">
+<methods>
+<include name="emailTest"/>
+<include name="GoBack"/>
+</methods>
+</class>
+</classes>
+</test>
+
+<!-- Test -->
+</suite>
